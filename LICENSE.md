@@ -1,5 +1,8 @@
 Portions Copyright (c) 2001-2005, Gerrit Pape
+
+
 Portions Copyright (c) 2019, Frank C. Earl
+
 
 All rights reserved by the respective rights holders.
 
