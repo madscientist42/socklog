@@ -1,10 +1,12 @@
 socklog 2.2.0 
-Wed, 03 Mar 2019 18:40:00 CST
+Wed, 03 Mar 2019 19:30:00 CST
   * Resurrected this to be buildable as a clean cross compile
     just like runit was done a bit under two years ago now.
   * Moved to a CMake based build system for that purpose.
   * Did a similar restructure of the directories to make this
     more maintainable.
+  * Added nanoklogd from Void's build out for this package to
+    this as it properly belongs in here as far as I'm concerned.
 
 socklog 2.1.0
 Mon, 06 Mar 2006 12:59:33 +0000

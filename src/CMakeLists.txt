@@ -16,6 +16,8 @@ TARGET_LINK_LIBRARIES(tryto socklog_runtime)
 
 ADD_EXECUTABLE(uncat uncat.c)
 TARGET_LINK_LIBRARIES(uncat socklog_runtime)
+
+ADD_EXECUTABLE(nanoklogd nanoklogd)
    
 # Set destinations for things...binaries should go in /usr/sbin or /usr/local/sbin...
 INSTALL(TARGETS
@@ -24,4 +26,5 @@ INSTALL(TARGETS
     socklog-conf
     tryto
     uncat
+    nanoklogd 
     DESTINATION ${CMAKE_INSTALL_SBINDIR})
